@@ -81,8 +81,12 @@
     
     .project {
         background-color: var(--blue-color);
-        padding: 0.5rem;
-        height: 4rem;
+        /* padding: 0.5rem; */
+        /* height: auto; */
+        height: 300px;
+
+        display: flex;
+        flex-direction: column;
 
     }
 
@@ -93,8 +97,19 @@
         display: grid;
         padding: 0.5rem;
         gap: 0.5rem;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
+    }
+
+    .project-img {
+        width: 100%;
+        height: 75%;
+    }
+
+    .project-link:hover {
+        font-size: large;
+        font-weight: bold;
+        color: rgb(255, 234, 0);
     }
 
     #contact {
@@ -197,8 +212,8 @@
     
     .project {
         background-color: var(--blue-color);
-        padding: 0.5rem;
-        height: 5rem;
+        /* padding: 0.5rem; */
+        height: auto;
 
     }
 
@@ -211,6 +226,17 @@
         gap: 0.5rem;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
+    }
+
+    .project-img {
+        width: 100%;
+        height: 75%;
+    }
+
+    .project-link:hover {
+        font-size: large;
+        font-weight: bold;
+        color: rgb(255, 234, 0);
     }
 
     #contact {
@@ -315,7 +341,7 @@
     
     .project {
         background-color: var(--blue-color);
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
         height: 15rem;
 
     }
@@ -329,6 +355,17 @@
         gap: 0.5rem;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
+    }
+
+    .project-img {
+        width: 100%;
+        height: 75%;
+    }
+
+    .project-link:hover {
+        font-size: large;
+        font-weight: bold;
+        color: rgb(255, 234, 0);
     }
 
     #contact {
